@@ -38,12 +38,18 @@
 #DESFAZER / RESETAR 
 > git checkout nomedoarquivo.php
 
+> git reset HEAD nomedoarquivo.php
+>> Tira da fila do stage
 
 #Conteúdo Teste
 
 Primeira mudança
 
 www.mbiasotto.com
+
+
+
+- Colocando um erro pra teste
 
 
 
