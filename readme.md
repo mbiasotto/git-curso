@@ -35,11 +35,45 @@
 >> mostra só os nomes dos arquivos que foram editados
 
 
-#DESFAZER / RESETAR 
+#DESFAZER / RESETAR  
 > git checkout nomedoarquivo.php
 
 > git reset HEAD nomedoarquivo.php
 >> Tira da fila do stage
+
+#Resets (para retornar arquivos que já estão comitados ou no stage)
+> git reset --soft    OU     --mixed    OU     --hard   + HASH
+>> soft: vai matar o commit mas vai ficar na stage
+>> mixed: vai matar o commit e volta antes do stage
+>> hard: vai matar tudo que foi feito no commit e volta no inicio mesmo
+>> ** usar a HASH anterior
+
+
+
+##SSH
+ssh-keygen -t ed25519 -C "mauricio@mbiasotto.com"
+
+Gerar chave>
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+#GIT REMOTE
+> git remote add origin https://github.com/mbiasotto/git-curso.git  (pega no repositorio)
+> git remote
+> git remote -v
+
+#GIT branch
+> git branch -M main
+
+#GIT PUSH (envia os arquivos)
+> git push -u origin main
+
+
+#Commitar todos os arquivos
+> git commit -am "mensagem"
+
+
+#subir atualizações
 
 #Conteúdo Teste
 
