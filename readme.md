@@ -1,4 +1,5 @@
 #Primeiro Git
+>GIT INIT
 
 > git status
 
@@ -27,8 +28,24 @@
 
 > git show 321123412122 (hash)
 
+> git diff
+>> Mostra o que será gravado / o que foi modiicado
+
+> git diff --name-only
+>> mostra só os nomes dos arquivos que foram editados
+
+
+#DESFAZER / RESETAR 
+> git checkout nomedoarquivo.php
+
+
 #Conteúdo Teste
 
 Primeira mudança
 
 www.mbiasotto.com
+
+
+
+
+Testando o Git DIFF
