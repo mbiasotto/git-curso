@@ -64,13 +64,55 @@ https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-
 
 #GIT branch
 > git branch -M main
+> git branch (lista os branchs) (* é o que vc está no momento)
+> git checkout nomedobranch (pra trocar entre os branchs)
+> git branch -D nomedobranch (deleta)
 
 #GIT PUSH (envia os arquivos)
 > git push -u origin main
 
 
+#GIT CLONE (copiar arquivos)
+git clone    + Link +    nome da posta
+git clone https://github.com/joetorres/sensor-altura.back.git sensor
+
+
 #Commitar todos os arquivos
 > git commit -am "mensagem"
+
+
+#FORK (copia, faz as alterações e depois envia para a pessoa aprovar)
+
+
+#GIT IGNORE
+*.json (ignoraria todos os json)
+
+
+#GIT STASH
+> git stash
+> git stash apply
+> git stash list
+> git stash clear
+
+# GIT ALIAS
+> git config --global alias.s status
+> git config --global alias.c commit
+> alias.+leta = comando
+
+#VERSÔES do SISTEMA / etapa
+#GIT TAG
+> git tag - + versão
+> git tag -a 1.0.0 -m "status do projeto"
+
+> git push origin master --tags
+
+#GIT REVERT
+> git revert + hash
+
+
+#DELETAR TAGS e BRANCS remoto
+> git push origin :1.0.0 (+:versão)
+
 
 
 #subir atualizações
