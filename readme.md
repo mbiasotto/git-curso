@@ -114,6 +114,7 @@ git clone https://github.com/joetorres/sensor-altura.back.git sensor
 #DELETAR TAGS e BRANCS remoto
 > git push origin :1.0.0 (+:versão)
 
+Editado pelo VS
 
 
 #subir atualizações
