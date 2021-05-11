@@ -81,6 +81,7 @@ git clone https://github.com/joetorres/sensor-altura.back.git sensor
 > git commit -am "mensagem"
 
 
+
 #FORK (copia, faz as alterações e depois envia para a pessoa aprovar)
 
 
